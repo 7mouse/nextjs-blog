@@ -1,0 +1,69 @@
+{
+  // tab 大小为2个空格
+  "editor.tabSize": 2,
+  // 100 列后换行
+  "editor.wordWrapColumn": 100,
+  // 保存时格式化
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "eslint.format.enable": true,
+  "eslint.options": {
+    //指定vscode的eslint所处理的文件的后缀
+    "extensions": [".js", ".ts", ".tsx"]
+  },
+  // eslint 检测文件类型
+  "eslint.validate": [
+     "javascript",
+     "typescript",
+     "javascriptreact",
+     "typescriptreact"
+  ],
+  // 开启 vscode 文件路径导航
+  "breadcrumbs.enabled": true,
+  // 显示 markdown 中英文切换时产生的特殊字符
+  "editor.renderControlCharacters": true,
+  // 设置行尾序列为 LF (\n) / CRLF (\r\n)
+  "files.eol": "\n",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "less",
+    "markdown",
+    "postcss",
+    "sass",
+    "scss",
+    "source.css.styled",
+    "source.markdown.math",
+    "styled-css",
+    "sugarss",
+    "svelte",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "vue-html",
+    "vue-postcss",
+    "xml",
+    "xsl"
+  ],
+  // 使能每一种语言默认格式化规则
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
